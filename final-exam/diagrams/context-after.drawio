@@ -1,0 +1,147 @@
+<mxfile host="65bd71144e">
+    <diagram name="หน้า-1" id="hKeb0BTYNofDDyhKvAB3">
+        <mxGraphModel dx="200" dy="267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title-box" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;context-after: System Context Diagram (Change-to-Design)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 13px; color: #555555;&quot;&gt;Case 10: ระบบแจ้งปัญหาพื้นที่ส่วนกลางและติดตามการแก้ไข (Common Area Issue Reporting) — Scope หลัง CR-FX-01 และ CR-FX-02B&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="860" x="180" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#d6d8db;arcSize=8;align=left;spacingLeft=10;verticalAlign=top;" value="&lt;b style=&quot;font-size: 11px;&quot;&gt;สัญลักษณ์และขอบเขต (Scope Legend)&lt;/b&gt;&lt;hr style=&quot;margin: 3px 0;&quot;&gt;&lt;div style=&quot;font-size: 10px; line-height: 16px;&quot;&gt;• &lt;span style=&quot;color:#1e4620; font-weight:bold;&quot;&gt;[Core Scope]&lt;/span&gt;: ขอบเขตหลักที่ต้องทำในรุ่นแรก (Build now)&lt;br&gt;• &lt;span style=&quot;color:#b85450; font-weight:bold;&quot;&gt;[Extension / TBD]&lt;/span&gt;: ปรับลดตาม CR-FX-02B (Overview / Later)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="320" x="810" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="actor-staff" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;arcSize=10;" value="&lt;div&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;ACT-02: เจ้าหน้าที่ (Staff)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: #444;&quot;&gt;(เจ้าหน้าที่อาคาร / เทคนิค / แม่บ้าน)&lt;/div&gt;&lt;div style=&quot;font-size: 10px; color: #777; margin-top: 2px;&quot;&gt;[Actor · Core Scope]&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="240" x="440" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="actor-reporter" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;arcSize=10;" value="&lt;div&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;ACT-01: ผู้แจ้งปัญหา (Reporter)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: #444;&quot;&gt;(นักศึกษา / บุคลากรผู้พบปัญหา)&lt;/div&gt;&lt;div style=&quot;font-size: 10px; color: #777; margin-top: 2px;&quot;&gt;[Actor · Core Scope]&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="230" x="10" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="actor-admin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;arcSize=10;" value="&lt;div&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;ACT-03: ผู้ดูแลระบบ&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: #444;&quot;&gt;(System Administrator)&lt;/div&gt;&lt;div style=&quot;font-size: 10px; color: #777; margin-top: 2px;&quot;&gt;[Actor · Core Scope]&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="230" x="930" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="main-system" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;arcSize=8;" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;Common Area Issue Reporting&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;margin-top: 3px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;ระบบแจ้งปัญหาพื้นที่ส่วนกลางและติดตามการแก้ไข&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: #4a6b82; margin-top: 4px;&quot;&gt;[Software System · ขอบเขตระบบหลัก]&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="110" width="360" x="380" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext-identity" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;arcSize=10;" value="&lt;div&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;EXT-01: University Identity Service&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: rgb(51, 51, 51);&quot;&gt;ระบบยืนยันตัวตนของมหาวิทยาลัย (SSO)&lt;/div&gt;&lt;div style=&quot;font-size: 11px; font-weight: bold; color: rgb(30, 70, 32); margin-top: 3px;&quot;&gt;[External System · Core]&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="280" x="130" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext-notification" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;strokeDasharray=3 3;arcSize=10;" value="&lt;div&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;EXT-02: Notification Service&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: rgb(51, 51, 51);&quot;&gt;บริการส่งแจ้งเตือนภายนอก (Push / Email)&lt;/div&gt;&lt;div style=&quot;font-size: 11px; font-weight: bold; color: rgb(184, 84, 80); margin-top: 3px;&quot;&gt;[External System · Extension / TBD]&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="290" x="710" y="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-reporter-in" edge="1" parent="1" source="actor-reporter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=1.2;" target="main-system">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="label-reporter-in" connectable="0" parent="flow-reporter-in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" value="แจ้งปัญหา, แนบรูปภาพ, ระบุสถานที่" vertex="1">
+                    <mxGeometry relative="1" x="-0.1" y="-1" as="geometry">
+                        <mxPoint x="-8" y="-34" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-reporter-out" edge="1" parent="1" source="main-system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=1.2;" target="actor-reporter">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="label-reporter-out" connectable="0" parent="flow-reporter-out" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="เลขคำร้อง (Report ID), สถานะล่าสุด, In-app Alert" vertex="1">
+                    <mxGeometry relative="1" x="0.1" y="1" as="geometry">
+                        <mxPoint x="-38" y="36" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-staff-in" edge="1" parent="1" source="actor-staff" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.3;exitY=1;exitDx=0;exitDy=0;strokeColor=#6c8ebf;strokeWidth=1.2;entryX=0.368;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="main-system">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="512" y="350"/>
+                            <mxPoint x="512.51" y="350"/>
+                        </Array>
+                        <mxPoint x="520" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="label-staff-in" connectable="0" parent="flow-staff-in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" value="อัปเดตสถานะ, บันทึกผลดำเนินงาน (Worklog)" vertex="1">
+                    <mxGeometry relative="1" x="-0.2" y="-1" as="geometry">
+                        <mxPoint x="-101" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-staff-out" edge="1" parent="1" source="main-system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=1.2;" target="actor-staff">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="608" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="label-staff-out" connectable="0" parent="flow-staff-out" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" value="รายการคิวงาน, รายละเอียดปัญหาและภาพถ่าย" vertex="1">
+                    <mxGeometry relative="1" x="0.2" y="1" as="geometry">
+                        <mxPoint x="103" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-admin-in" edge="1" parent="1" source="actor-admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=1.2;" target="main-system">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="label-admin-in" connectable="0" parent="flow-admin-in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" value="กำหนดสิทธิ์ (RBAC), ตรวจสอบบัญชีใช้งาน" vertex="1">
+                    <mxGeometry relative="1" x="-0.1" y="-1" as="geometry">
+                        <mxPoint y="-27" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-identity-req" edge="1" parent="1" source="main-system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;strokeColor=#82b366;strokeWidth=1.2;" target="ext-identity">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="433.97" y="600"/>
+                            <mxPoint x="353.97" y="600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="label-identity-req" connectable="0" parent="flow-identity-req" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" value="ส่งคำขอยืนยันตัวตน [Protocol TBD]" vertex="1">
+                    <mxGeometry relative="1" x="-0.15" y="-1" as="geometry">
+                        <mxPoint x="11" y="21" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-identity-res" edge="1" parent="1" source="ext-identity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.45;exitY=0;exitDx=0;exitDy=0;entryX=0.05;entryY=1;entryDx=0;entryDy=0;strokeColor=#82b366;strokeWidth=1.2;" target="main-system">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="256.03" y="580"/>
+                            <mxPoint x="398.03" y="580"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="label-identity-res" connectable="0" parent="flow-identity-res" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" value="ส่งข้อมูลตัวตนและสิทธิ์ (Role Claim)" vertex="1">
+                    <mxGeometry relative="1" x="0.1" y="1" as="geometry">
+                        <mxPoint x="-50" y="-30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-notification-out" edge="1" parent="1" source="main-system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.85;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;strokeColor=#b85450;strokeWidth=1.5;strokeDasharray=3 3;" target="ext-notification">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="686.03" y="600"/>
+                            <mxPoint x="797" y="600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="label-notification-out" connectable="0" parent="flow-notification-out" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" value="ส่งเหตุการณ์เปลี่ยนสถานะ (Status Event Alert)" vertex="1">
+                    <mxGeometry relative="1" x="-0.15" y="-1" as="geometry">
+                        <mxPoint x="-23" y="19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-notification-in" edge="1" parent="1" source="ext-notification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=0;exitDx=0;exitDy=0;entryX=0.95;entryY=1;entryDx=0;entryDy=0;strokeColor=#b85450;strokeWidth=1.2;strokeDasharray=3 3;" target="main-system">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="913" y="570"/>
+                            <mxPoint x="722.03" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="label-notification-in" connectable="0" parent="flow-notification-in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" value="[Later] ผลการส่ง (Delivery Status)" vertex="1">
+                    <mxGeometry relative="1" x="0.15" y="1" as="geometry">
+                        <mxPoint x="27" y="-21" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nNSyz_05t-3C-FcsnNS5-9" edge="1" parent="1" source="main-system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=1.2;" target="actor-admin">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1050" y="460" as="sourcePoint"/>
+                        <mxPoint x="860" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nNSyz_05t-3C-FcsnNS5-10" connectable="0" parent="nNSyz_05t-3C-FcsnNS5-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" value="รายงานประวัติการทำงานย้อนหลัง (Audit Log)" vertex="1">
+                    <mxGeometry relative="1" x="-0.1" y="-1" as="geometry">
+                        <mxPoint x="10" y="16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
