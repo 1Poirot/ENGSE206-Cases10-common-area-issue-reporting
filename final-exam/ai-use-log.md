@@ -7,5 +7,5 @@
 | # | ใคร | เครื่องมือ | ใช้ช่วยเรื่องใด (ส่วน G / ข้อ) | สิ่งที่รับมาใช้ | ตรวจกับ SRS ของกลุ่มอย่างไร |
 |---:|---|---|---|---|---|
 | 1 | ทีมกลุ่ม 10 | ChatGPT | ตรวจ trace และทบทวน CR-FX-02B ใน G1–G6 | ข้อเสนอให้คง RBAC/Audit Log, เติม G5 และแบ่ง Build now/Overview/Later | เทียบกับ `docs/06-requirement-models.md`, `docs/07-srs-v1.md`, `design/10-design-strategy.md` และตรวจสถานะ TBD/OI/DD โดยสมาชิก |
-| 2 | | | | | |
+| 2 | ทีมกลุ่ม 10 | ChatGPT | ช่วยตรวจ Container diagram ใน G4 | แนวทางตรวจ Container และแยกฟังก์ชันที่ทำในรุ่นแรกกับส่วนที่ทำภายหลัง | ตรวจสอบบทบาทผู้ใช้และขอบเขตระบบจาก docs/07-srs-v1.md ตรวจสอบ Requirements จาก docs/06-requirement-models.md และเทียบหน้าที่ของ Container กับระบบภายนอกจาก design/10-design-strategy.md และ design/11-conceptual-architecture.md โดยเน้น RBAC, Audit Log, SSO, File Storage และสถานะ EXT-02 (ระบบแจ้งเตือน) ว่าสอดคล้องกับ SRS และขอบเขตการพัฒนารุ่นแรกหรือไม่ |
 | 3 | | | | | |
