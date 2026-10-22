@@ -1,6 +1,8 @@
 # Use Case Diagrams
 
 ใส่ use case diagram และเชื่อมกับ UC-ID ใน docs/06
+![alt text](use-case.pdf)
+
 
 ## Checklist
 
