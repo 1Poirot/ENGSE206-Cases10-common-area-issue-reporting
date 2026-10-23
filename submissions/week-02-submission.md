@@ -6,9 +6,9 @@
 |---|---|
 | Assignment ID | `W02-v1.0` |
 | Course assignment URL | https://github.com/se-rmutl/engse206-lab/blob/main/weeks/week-02-stakeholder-context-scope/assignment-contract.md |
-| Course version/commit read | `main` |
-| Date checked | 2026-07-13 |
-| Case ID / Case URL | Case 10 — https://github.com/1Poirot/ENGSE206-Cases10-common-area-issue-reporting |
+| Course version/commit read | ENGSE206 Week 02 — Stakeholder, Context and Scope |
+| Date checked | 2026-10-22 |
+| Case ID / Case URL | Case 10 / `https://github.com/1Poirot/ENGSE206-Cases10-common-area-issue-reporting.md` |
 
 ## 2. Artefacts Submitted
 
@@ -18,13 +18,11 @@ Expected paths: `docs/02-stakeholder-context-scope.md`, `diagrams/context/`, `fe
 
 | Artefact | Repository path / URL | Owner | Status |
 |---|---|---|---|
-| Stakeholder Context & Scope | `docs/02-stakeholder-context-scope.md` | ณัฐณิชา ปกแก้ว | Done |
-| System Context Diagram | `diagrams/context/SystemContextDiagram.drawio` | นนทชัย ไทยตัน | Done |
-| System Context Image | `diagrams/context/SystemContextDiagram.png` | นนทชัย ไทยตัน | Done |
-| Stakeholder Map | `diagrams/stakeholders/Stakeholder Inventory and Map.drawio` | นนทชัย ไทยตัน | Done |
-| Stakeholder Map Image | `diagrams/stakeholders/Stakeholder Inventory and Map.drawio.png` | นนทชัย ไทยตัน | Done |
-| Week 02 Peer Feedback | `feedback/week-02-peer-feedback.md` | ภูมิพัฒน์ วงศ์ดาว | Done |
-| Week 02-03 Worklog | `project-management/week-02-week-03-worklog.md` | ภูมิพัฒน์ วงศ์ดาว | Done |
+| Stakeholder and scope document | `docs/02-stakeholder-context-scope.md` | Group 10 | Completed |
+| Stakeholder map diagram | `diagrams/stakeholders/Stakeholder Inventory and Map.drawio.png` | Group 10 | Completed |
+| System context diagram | `diagrams/context/SystemContextDiagram.png` | Group 10 | Completed |
+| Peer feedback record | `feedback/week-02-peer-feedback.md` | Group 10 | Completed |
+| Submission file | `submissions/week-02-submission.md` | Group 10 | Completed |
 
 ## 3. Evidence and Quality Check
 
@@ -39,30 +37,27 @@ Expected paths: `docs/02-stakeholder-context-scope.md`, `diagrams/context/`, `fe
 
 | Member | Role / Work completed | Evidence (commit/file) |
 |---|---|---|
-| ณัฐณิชา ปกแก้ว | Team Coordinator / ปรับโครงสร้างเอกสาร Stakeholder และ Context เพื่อความชัดเจน | `docs/02-stakeholder-context-scope.md` |
-| นนทชัย ไทยตัน | Requirements Lead / จัดทำ System Context Diagram และ Stakeholder Inventory and Map | `diagrams/context/`, `diagrams/stakeholders/` |
-| ภูมิพัฒน์ วงศ์ดาว | UX & Evidence Lead / จัดทำ Peer Feedback และ Week 02-03 Worklog | `feedback/week-02-peer-feedback.md`, `project-management/week-02-week-03-worklog.md` |
+| นางสาว ณัฐณิชา ปกแก้ว | Team Coordinator / Design Lead; จัดทำ stakeholder map, system context, scope และปรับ review summary | `docs/02-stakeholder-context-scope.md`, `diagrams/stakeholders/Stakeholder Inventory and Map.drawio`, `diagrams/context/SystemContextDiagram.drawio` |
+| นาย นนทชัย ไทยตัน | Requirements Lead; วิเคราะห์ stakeholder, pain points, goals, in/out of scope และ open questions | `docs/02-stakeholder-context-scope.md`, `project-management/team-worklog.md` |
+| นายภูมิพัฒน์ วงศ์ดาว | UX & Evidence Lead; บันทึก peer feedback และตรวจสอบความครบถ้วนของหลักฐาน | `feedback/week-02-peer-feedback.md`, `docs/02-stakeholder-context-scope.md` |
 
 ## 5. Tabletop / Review Summary
 
-- สิ่งที่นำเสนอ: Stakeholder Map + System Context Diagram + Scope สำหรับระบบแจ้งปัญหาพื้นที่ส่วนกลาง
-- Feedback ที่ได้รับ:
-  - เพิ่ม Open Questions เกี่ยวกับเกณฑ์การจัดลำดับความเร่งด่วน (Urgency Criteria) และผู้มีอำนาจกำหนดระดับความเร่งด่วน
-  - ปรับปรุง User Needs และเพิ่ม Open Questions สำหรับกรณีที่มีการแจ้งปัญหาซ้ำ (Duplicate Reports)
-  - เพิ่ม Assumptions และ Open Questions เกี่ยวกับการแจ้งปัญหาแบบไม่ระบุตัวตน (Anonymous Reporting)
-- สิ่งที่แก้ก่อนส่ง: ปรับปรุงเอกสารตาม feedback เพิ่ม open questions และ assumptions ครบถ้วน
+- สิ่งที่นำเสนอ: Stakeholder Map + System Context + Scope สำหรับระบบแจ้งปัญหาพื้นที่ส่วนกลางและติดตามการแก้ไข ครอบคลุมผู้มีส่วนได้ส่วนเสีย ขอบเขต และการไหลของข้อมูลระหว่างระบบกับผู้ใช้งาน
+- Feedback ที่ได้รับ: แนะนำให้แยกบทบาทเจ้าหน้าที่อาคาร/เจ้าหน้าที่เทคนิค/แม่บ้านจากผู้ดูแลความปลอดภัย, เพิ่มเกณฑ์ความเร่งด่วนของเหตุการณ์ และกำหนดบทบาทผู้รับผิดชอบต่อแต่ละประเภทปัญหาให้ชัดเจน
+- สิ่งที่แก้ก่อนส่ง: ปรับ stakeholder ให้สอดคล้องกับ case project, เพิ่ม Open Questions เกี่ยวกับเกณฑ์ความเร่งด่วนและการจัดลำดับปัญหา, และปรับ Scope ให้เน้นที่การแจ้งปัญหาและติดตามการแก้ไขโดยไม่ขยายไปสู่ระบบซ่อมบำรุงเชิงลึก
 
 ## 6. Final Submission Snapshot
 
 | Field | Value |
 |---|---|
 | Commit message | `submit(w02): stakeholder context and scope` |
-| Commit hash | `15118418c24b36711780243daae26c0e1ebe3db3` |
-| Submitted at | 2026-07-13 20:50 |
-| Known limitations / open questions | Open Questions เรื่องเกณฑ์ความเร่งด่วน และการแจ้งปัญหาซ้ำ |
+| Commit hash | [กรอกหลัง push] |
+| Submitted at | 2026-10-22 |
+| Known limitations / open questions | ยังต้องยืนยันเกณฑ์การจัดประเภทเหตุเร่งด่วน ความชอบของช่องทางแจ้งเตือน และผู้มีสิทธิ์ปิดงาน/ยืนยันการแก้ไข |
 
 ## 7. Revision after Feedback
 
 | Date | Feedback | Change made | New commit |
 |---|---|---|---|
-| 2026-07-13 | ปรับปรุง Urgency Criteria, Duplicate Reports, Anonymous Reporting | เพิ่มหัวข้อใน docs/02 และ diagrams | `1511841` |
+| 2026-07-11 | แยกบทบาทเจ้าหน้าที่อาคาร/เทคนิค/แม่บ้านจากผู้ดูแลความปลอดภัย, เพิ่ม Open Questions เกี่ยวกับลำดับความสำคัญของงาน, และปรับ scope ให้มุ่งเน้นการแจ้งปัญหาและติดตามการแก้ไข | ปรับ stakeholder map, เพิ่ม OQ-03 และปรับ In Scope / Out of Scope ให้ชัดเจน | `docs: refine stakeholder and scope v0.1` |
