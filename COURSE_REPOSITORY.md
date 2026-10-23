@@ -9,12 +9,12 @@ Team Repo นี้รับคำสั่งงานจาก Course/Lab Repo
 
 | Field | Value |
 |---|---|
-| Semester | [กรอก] |
-| Group | [Group XX] |
-| Case ID | [01–10] |
-| Case URL | [วาง URL] |
+| Semester | 1/2569 |
+| Group | Group 10 |
+| Case ID | 10 |
+| Case URL | https://github.com/se-rmutl/engse206-lab |
 | Course assignment branch | `main` หรือที่อาจารย์กำหนด |
-| Last checked | [YYYY-MM-DD] |
+| Last checked | 2026-10-23 |
 
 ## กฎ
 
