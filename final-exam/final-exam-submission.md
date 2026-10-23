@@ -24,8 +24,8 @@
 ## ไฟล์ที่ส่ง
 
 - [x] `final-exam/final-exam-group-answer.docx`
-- [ ] `final-exam/diagrams/context-after.drawio` + `.png`
-- [ ] `final-exam/diagrams/container-after.drawio` + `.png`
+- [x] `final-exam/diagrams/context-after.drawio` + `.png`
+- [x] `final-exam/diagrams/container-after.drawio` + `.png`
 - [x] `final-exam/final-exam-submission.md` (ไฟล์นี้)
 - [x] `final-exam/ai-use-log.md`
 
