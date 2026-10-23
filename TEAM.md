@@ -7,9 +7,9 @@
 | รายการ | รายละเอียด |
 |---|---|
 | กลุ่ม | Group 10|
-| ชื่อโครงงาน | [ระบบแจ้งปัญหาพื้นที่ส่วนกลางและติดตามการแก้ไข] / [common area issue reporting ] |
+| ชื่อโครงงาน | ระบบแจ้งปัญหาพื้นที่ส่วนกลางและติดตามการแก้ไข (Common Area Issue Reporting) |
 | Case Card | Cases10-common-area-issue-reporting.md |
-| Repository URL | https://github.com/1Poirot/ENGSE206-Cases10-common-area-issue-reporting.md|
+| Repository URL | https://github.com/1Poirot/ENGSE206-Cases10-common-area-issue-reporting |
 | ช่องทางสื่อสารหลัก | LINE / Discord / codeshare |
 | วันประชุมประจำ | วัน เสาร์ เวลา 19.00 น. |
 
@@ -17,12 +17,11 @@
 
 > ทุกคนมีส่วนร่วมใน requirements และ design ทุกส่วนได้ แต่ให้กำหนด **responsible owner** เพื่อกันงานตกหล่น
 
-| รหัสนักศึกษา | ชื่อ-นามสกุล | บทบาทหลัก | รับผิดชอบเริ่มต้น | หลักฐานการทำงานที่คาดหวัง |
+| GitHub Username | ชื่อ-นามสกุล | บทบาทหลัก | รับผิดชอบเริ่มต้น | หลักฐานการทำงานที่คาดหวัง |
 |---|---|---|---|---|
-| 68543210063-2 | ณัฐณิชา ปกแก้ว | Team Coordinator | ประสานงาน/ติดตามความคืบหน้า | meeting notes, worklog |
-| 68543210012-9| นนทชัย ไทยตัน | Requirements Lead | elicitation / backlog / SRS | requirement docs |
-68543210063-2 | ณัฐณิชา ปกแก้ว | Design Lead | diagrams / architecture / detailed design | design docs, diagrams |
-| 68543210038-4| นายภูมิพัฒน์ วงศ์ดาว | UX & Evidence Lead | prototype / usability / evidence | evidence, prototype |
+| 1Poirot | ณัฐณิชา ปกแก้ว | Team Coordinator & Design Lead | ประสานงาน/ติดตามความคืบหน้า / diagrams / architecture | meeting notes, worklog, design docs, diagrams |
+| Nonthachai09 | นนทชัย ไทยตัน | Requirements Lead | elicitation / backlog / SRS | requirement docs |
+| Phumipat-2005 | นายภูมิพัฒน์ วงศ์ดาว | UX & Evidence Lead | prototype / usability / evidence | evidence, prototype |
 
 ## กติกาทีม
 
